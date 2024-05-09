@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+body {
+    background-color: #F4DFC8;
+    font-family: "Sedan SC", serif;
+}
+
+header {
+    background-color: #1E1E24;
+    width: 100%;
+    padding: 2rem;
+    font-size: large;
+    
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li a {
+    margin: 0 5rem;
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    border-bottom: 1pix solid #a05959;
+    
+}
+
+.produto {
+    margin: 2%;
+}
+
+.produtos__lista {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.produtos__item {
+    max-width: 20rem;
+
+
+}
+
+img {
+    width: 100%;
+    border-radius: 2rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    text-decoration: none;
+}
+
+.produtos__informacao {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.produtos__informacao s {
+    font-size: 1rem;
+    margin-left: 1rem;
+    color: #9A3B3B;
+}
+
+footer {
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    background-color: #17ad85;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    font-weight: 600;
+
+    &:hover {
+        cursor: pointer;
+    }
+}

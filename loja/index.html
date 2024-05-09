@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Minha loja</title>
+</head>
+
+<body> <!-- Corpo -->
+
+    <header> <!-- cabeçalho -->
+        <nav> <!-- navegação-->
+            <ul><!--lista não ordenada-->
+                <li><!--item da lista-->
+                    <a href="/">Minha loja</a><!--link-->
+                </li>
+                <li>
+                    <a href="#">Livros</a>
+                </li>
+                <li>
+                    <a href="#">Eletrônicos</a>
+                </li>
+                <li>
+                    <a href="#">Presentes</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="produtos"><!-- Seção a ser estilizada -->
+            <ul class="produtos__lista">
+                <li class="produtos__item">
+                    <div class="produtos__conteudo">
+                        <img src="assets/celular.jpeg" alt="A tela na mao de uma pessoa">
+                        <div class="produtos__informacao">
+                            <h3>Celular</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Architecto dignissimos velit cumque autem minima ipsam animi blanditiis provident amet,
+                                quod aliquam vero sapiente itaque voluptate expedita obcaecati repudiandae neque optio.
+                            </p>
+                            <h4>R$1999,99 <s>R$2999,97</s></h4><!--s risca o texto-->
+                            <p>Frete Grátis</p><!--Paragrafo-->
+                        </div>
+                        <div>
+                            <button class="botao"> COMPRAR</button>
+                        </div>
+                    </div>
+
+                </li>
+                <li class="produtos__item">
+                    <div class="produtos__conteudo">
+                        <img src="assets/livro.jpeg" alt="Livro html e css">
+                        <div class="produtos__informacao">
+                            <h3>Livro de HTML e CSS</h3>
+                            <p>Um livro muito bom </p>
+                            <h4>R9,99 <s>R$99,97</s></h4><!--s risca o texto-->
+                            <p>Frete Grátis</p><!--Paragrafo-->
+                        </div>
+                        <div>
+                            <button class="botao"> COMPRAR
+                                <a href="www.google.com.br"></a>
+                            </button>
+                            
+                        </div>
+                    </div>
+
+                </li>
+                <li class="produtos__item">
+                    <div class="produtos__conteudo">
+                        <img src="assets/ps7.jpeg" alt="PS7">
+                        <div class="produtos__informacao">
+                            <h3>PS7</h3>
+                            <p>Um video game de ultima geração.</p>
+                            <h4>R$3999,99 <s>R$5999,97</s></h4><!--s risca o texto-->
+                            <p>Frete Grátis</p><!--Paragrafo-->
+                        </div>
+                        <div>
+                            <button class="botao"> COMPRAR</button>
+                        </div>
+                    </div>
+
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
